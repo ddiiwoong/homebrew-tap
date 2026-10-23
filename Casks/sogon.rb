@@ -1,6 +1,6 @@
 cask "sogon" do
-  version "0.34.2"
-  sha256 "e51debb36b98049fea13c223c518470464be07c3db9b59d90d52ba63a7672e5a"
+  version "0.34.3"
+  sha256 "b86c9676efa258156173f331b1599860c1d7387ee17892901b0ecabea9d7ae3d"
 
   # GitHub Release 자산. 저장소가 공개이므로 **인증 없이 받아진다** — 예전 내부 호스팅이 요구했던
   # 세션과 토큰이 필요 없다.
