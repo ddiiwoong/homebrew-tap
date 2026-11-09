@@ -1,7 +1,7 @@
 # homebrew-tap
 
-[Sogon](https://sogon.dev/) 설치용 Homebrew 탭. 메뉴 바에서 말하면 받아쓰고, LLM으로 다듬어
-커서 자리에 넣어 주는 macOS 앱입니다.
+[Sogon](https://sogon.dev/)과 [마디](#마디-madi) 설치용 Homebrew 탭. Sogon은 메뉴 바에서 말하면 받아쓰고,
+LLM으로 다듬어 커서 자리에 넣어 주는 macOS 앱입니다.
 
 ## 설치
 
@@ -47,6 +47,18 @@ Sparkle로 직접 처리하므로(`auto_updates true`) `brew upgrade`를 돌리�
 DMG를 직접 받으려면 [릴리스 페이지](https://github.com/ddiiwoong/sogon-site/releases/latest)를
 쓰세요.
 
+## 마디 (Madi)
+
+[마디](https://github.com/ddiiwoong/madi)는 렌더된 문서에서 바로 고치는 macOS 마크다운 편집기입니다.
+
+```bash
+brew install --cask ddiiwoong/tap/madi
+```
+
+macOS 14 Sonoma 이상, Apple Silicon · Intel. DMG는 서명·공증·staple이 되어 있습니다. 0.1.1부터 앱이
+스스로 새 판을 받아 바꿔 넣으므로(`auto_updates true`) `brew upgrade`를 돌리지 않아도 됩니다. DMG를 직접 받으려면
+[릴리스 페이지](https://github.com/ddiiwoong/madi/releases/latest)를 쓰세요.
+
 ---
 
 Homebrew tap for [Sogon](https://sogon.dev/), a macOS menu-bar speech-to-text app.
@@ -62,3 +74,12 @@ tap, and naming the tap in full counts as consent; a bare `sogon` is rejected un
 Requires Apple Silicon and macOS 14 or newer. The app updates itself through Sparkle, so
 `brew upgrade` is not needed. Direct DMG downloads are on the
 [releases page](https://github.com/ddiiwoong/sogon-site/releases/latest).
+
+It also carries [Madi](https://github.com/ddiiwoong/madi), a native macOS Markdown editor that edits
+the rendered document in place (macOS 14 or newer, Apple Silicon and Intel):
+
+```bash
+brew install --cask ddiiwoong/tap/madi
+```
+
+From 0.1.1 Madi updates itself (Madi ▸ Check for Updates…), so `brew upgrade` is not needed.
