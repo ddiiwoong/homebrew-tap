@@ -55,8 +55,8 @@ DMG를 직접 받으려면 [릴리스 페이지](https://github.com/ddiiwoong/so
 brew install --cask ddiiwoong/tap/madi
 ```
 
-macOS 14 Sonoma 이상, Apple Silicon · Intel. DMG는 서명·공증·staple이 되어 있습니다. 앱이 스스로
-업데이트하지 않으므로 새 판은 `brew upgrade --cask ddiiwoong/tap/madi`로 받습니다. DMG를 직접 받으려면
+macOS 14 Sonoma 이상, Apple Silicon · Intel. DMG는 서명·공증·staple이 되어 있습니다. 0.1.1부터 앱이
+스스로 새 판을 받아 바꿔 넣으므로(`auto_updates true`) `brew upgrade`를 돌리지 않아도 됩니다. DMG를 직접 받으려면
 [릴리스 페이지](https://github.com/ddiiwoong/madi/releases/latest)를 쓰세요.
 
 ---
@@ -82,4 +82,4 @@ the rendered document in place (macOS 14 or newer, Apple Silicon and Intel):
 brew install --cask ddiiwoong/tap/madi
 ```
 
-Madi does not update itself; run `brew upgrade --cask ddiiwoong/tap/madi` for new versions.
+From 0.1.1 Madi updates itself (Madi ▸ Check for Updates…), so `brew upgrade` is not needed.
