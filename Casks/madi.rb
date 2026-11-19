@@ -1,6 +1,6 @@
 cask "madi" do
-  version "0.1.1"
-  sha256 "44d22320fe885c7869f73c1166cf528b14086845bf0198b433c746f63cb203cb"
+  version "0.1.2"
+  sha256 "39a7fd7b7cad27658b488f6892ce83866de40a208c83356c22075c0e6cb9d98d"
 
   url "https://github.com/ddiiwoong/madi/releases/download/v#{version}/Madi-#{version}.dmg"
   name "Madi"
